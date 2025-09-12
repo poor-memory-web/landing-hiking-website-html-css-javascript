@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Gilroy-Bold";
+}
+
+.container{
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+/* start header */
+
+
+
+/* start navbar */
+
+
