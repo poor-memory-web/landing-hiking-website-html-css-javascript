@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Girloy-Medium";
+    src: url(../fonts/Gilroy-Medium.ttf) format(trueType);
+}
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(../fonts/Gilroy-Bold.ttf) format(trueType);
+}
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url(../fonts/Gilroy-ExtraBold.ttf) format(trueType);
+}
+@font-face {
+    font-family: "Chronicle-Semibold";
+    src: url(../fonts/Chronicle-Display-Semibold.otf) format(openType);
+}
