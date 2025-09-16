@@ -5,9 +5,10 @@ html {
 
 body {
     font-family: "Gilroy-Bold";
+    background-color: #0B1D26;
 }
 
-.container{
+.container {
     max-width: 75rem;
     margin: 0 auto;
     padding: 0 1rem;
@@ -17,7 +18,42 @@ body {
 /* start header */
 
 
-
 /* start navbar */
 
 
+.header {
+    padding: 0px 3rem;
+    padding-top: 3rem
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.menu__link {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7%;
+}
+
+.account__link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
