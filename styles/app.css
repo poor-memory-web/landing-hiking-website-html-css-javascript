@@ -243,7 +243,57 @@ body {
 .reverse {
     padding-left: 5rem;
 }
-.body__number--reverse{
+
+.body__number--reverse {
     top: 11rem;
     left: 21.5rem;
+}
+
+
+/* start footer */
+
+
+.footer {
+    padding-top: 15rem;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 60%;
+    font-size: 18px;
+}
+
+.footer__txt {
+    width: 18rem;
+    padding-top: 3rem;
+    line-height: 2rem;
+}
+
+.footer__copyright {
+    opacity: 0.5;
+    font-family: "Girloy-Medium";
+    padding-top: 6.75rem;
+}
+
+.footer-right {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-footer__link {
+    display: block;
+    padding-bottom: 2rem;
+    font-size: 18px;
+    font-family: "Girloy-Medium";
+}
+
+.menu--active {
+    font-size: 24px;
+    font-family: "Gilroy-Bold";
+    color: #FBD784;
 }
