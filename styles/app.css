@@ -149,13 +149,17 @@ body {
 }
 
 
-/* stat body */
+/* start body */
+
+
+/* start first section */
 
 
 .content {
     display: flex;
     padding-top: 16rem;
     position: relative;
+    justify-content: space-between;
 }
 
 .content__desc {
@@ -167,12 +171,13 @@ body {
     font-size: 240px;
     opacity: 0.1;
     left: -9.5rem;
-    top: 9rem;
+    top: 11rem;
 }
 
 .content__line {
     display: flex;
     align-items: center;
+    padding-top: 2rem;
 }
 
 .content__line-img {
@@ -191,6 +196,7 @@ body {
     font-size: 64px;
     font-family: "Chronicle-Semibold";
     padding-right: 5rem;
+    padding-top: 2rem;
 }
 
 .content__txt {
@@ -224,4 +230,20 @@ body {
 .content__img {
     height: 100%;
     width: 100%;
+}
+
+
+/* start second section (reverse) */
+
+
+.content--reverse {
+    flex-direction: row-reverse;
+}
+
+.reverse {
+    padding-left: 5rem;
+}
+.body__number--reverse{
+    top: 11rem;
+    left: 21.5rem;
 }
