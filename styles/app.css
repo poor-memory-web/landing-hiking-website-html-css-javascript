@@ -11,7 +11,7 @@ body {
     font-family: "Gilroy-Bold";
     background-color: #0B1D26;
     zoom: 0.8;
-    background-image: linear-gradient(to right, rgba(11,29,38,0.5), rgba(11,29,38,0.1)) ,url(../pictures/back_ground2.png);
+    background-image: linear-gradient(to right, rgba(11, 29, 38, 0.5), rgba(11, 29, 38, 0.1)), url(../pictures/back_ground2.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -153,13 +153,14 @@ body {
     text-decoration: none;
     font-size: 18px;
 }
-.gradient{
+
+.gradient {
     width: 100%;
     /* background-color: red; */
     height: 20rem;
     position: absolute;
     bottom: -28.8rem;
-    background-image: linear-gradient(to top,rgba(11,29,38,1), rgba(11,29,38,0.1));
+    background-image: linear-gradient(to top, rgba(11, 29, 38, 1), rgba(11, 29, 38, 0.1));
     z-index: -1;
 }
 
@@ -170,9 +171,10 @@ body {
 /* start first section */
 
 
-.main{
+.main {
     padding-top: 23rem;
 }
+
 .content {
     display: flex;
     padding-top: 13rem;
