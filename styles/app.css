@@ -11,7 +11,7 @@ body {
     font-family: "Gilroy-Bold";
     background-color: #0B1D26;
     zoom: 0.8;
-    background-image: linear-gradient(to top, rgba(11,29,38,1), rgba(11,29,38,0.3)) ,url(../pictures/back_ground.png);
+    background-image: linear-gradient(to top, rgba(11,29,38,0.9), rgba(11,29,38,0.3)) ,url(../pictures/back_ground2.png);
     background-repeat: no-repeat;
 }
 
@@ -162,7 +162,7 @@ body {
 
 .content {
     display: flex;
-    padding-top: 16rem;
+    padding-top: 90rem;
     position: relative;
     justify-content: space-between;
 }
@@ -176,7 +176,7 @@ body {
     font-size: 240px;
     opacity: 0.1;
     left: -9.5rem;
-    top: 11rem;
+    top: 85rem;
 }
 
 .content__line {
