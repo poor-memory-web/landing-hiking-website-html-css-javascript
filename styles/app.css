@@ -11,6 +11,8 @@ body {
     font-family: "Gilroy-Bold";
     background-color: #0B1D26;
     zoom: 0.8;
+    background-image: linear-gradient(to top, rgba(11,29,38,1), rgba(11,29,38,0.3)) ,url(../pictures/back_ground.png);
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -67,7 +69,7 @@ body {
 
 
 .header-content {
-    padding-top: 10rem;
+    padding-top: 13rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,8 +121,10 @@ body {
 .web-introduction__title {
     font-family: "Chronicle-Semibold";
     font-size: 60px;
-    width: 630px;
+    width: 830px;
     padding-top: 2rem;
+    line-height: 80px;
+    letter-spacing: 2px;
 }
 
 .web-introdiction-scroll-down__link {
